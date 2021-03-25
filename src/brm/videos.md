@@ -11,9 +11,6 @@ layout: layout.njk
     layout="responsive"
     width="480"
     height="270">
-    <div fallback>
-        <p>The video could not be loaded.</p>
-    </div>
 </amp-youtube>
 
 ### WCCG BRM Prep Part One -- Bike Contingency
@@ -23,8 +20,5 @@ layout: layout.njk
     layout="responsive"
     width="480"
     height="270">
-    <div fallback>
-        <p>The video could not be loaded.</p>
-    </div>
 </amp-youtube>
 
