@@ -123,5 +123,20 @@
 		<div class="container">
 			{{ content | safe }}
 		</div>
+		<amp-analytics type="googleanalytics">
+			<script type="application/json">
+			{
+				"vars": {
+					"account": "G-VMLH4DTCDE"
+				},
+				"triggers": {
+					"default pageview": {
+						"on": "visible",
+						"request": "pageview"
+					}
+				}
+			}
+			</script>
+			</amp-analytics>
 	</body>
 </html>
