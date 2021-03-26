@@ -8,7 +8,7 @@ layout: layout.njk
 
 1. Drink lot of watter 1 day before
 2. Intake carb 
-3. Cover max distance before climate get 🥵
+3. Cover max distance before climate get hot
 4. During Headwind don't push more. Ride in relax mode
 5. Take break if needed but don't waste time
 6. Keep one water bottle with lemon and salt mix because it's summer time
