@@ -4,6 +4,15 @@ layout: layout.njk
 
 ## BRM Tips
 
+### BRM Newbie Tips
+
+1. Drink lot of watter 1 day before
+2. Intake carb 
+3. Cover max distance before climate get 🥵
+4. During Headwind don't push more. Ride in relax mode
+5. Take break if needed but don't waste time
+6. Keep one water bottle with lemon and salt mix because it's summer time
+
 ### BRM 1000 Tips
 
 The most important aspect in such rides is sleep management. Here are some suggestions, based on my experience/practice.
@@ -33,3 +42,6 @@ Hope this helps in some way.
 
 All the best!
 
+### Tips Courtesy
+
+- Prabhu Gauda (WCCG GDV Chapter)
