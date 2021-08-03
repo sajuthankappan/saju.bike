@@ -1,8 +1,7 @@
----
-layout: layout.njk
----
-
-## BRM Tips
++++
+title = "BRM Tips"
+date = 2021-08-01
++++
 
 ### BRM Newbie Tips
 
@@ -44,4 +43,4 @@ All the best!
 
 ### Tips Courtesy
 
-- Prabhu Gauda (WCCG GDV Chapter)
+1. Prabhu Gauda (WCCG GDV Chapter)

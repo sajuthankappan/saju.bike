@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>saju</title>
+    <style>
+      :root {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+					Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+
+      html {
+        --cream: #eee;
+        --black: #000;
+        --white: #fff;
+        --text-color: var(--black);
+        --bg-color: var(--white);
+        --nav-bg-color: var(--cream);
+        --dark: #121212;
+        --link-color: darkblue;
+        --nav-link-color: darkblue;
+      }
+      
+      @media (prefers-color-scheme: dark) {
+        html {
+          --text-color: var(--cream);
+          --bg-color: var(--dark);
+          --nav-bg-color: var(--dark);
+          --dark: #121212;
+          --link-color: #bb86fc;
+          --nav-link-color: #bb86fc;
+        }
+      }
+
+      body {
+        margin: 0;
+      }
+
+      html, body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+      }
+      
+      .nav {
+				background-color: var(--nav-bg-color);
+				color: var(--text-color);
+				padding: 1rem;
+				position: sticky;
+				top: 0;
+				z-index: 1;
+			}
+
+      nav {
+        max-width: 1024px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+      }
+
+      h1 {
+        margin: 0.25rem;
+      }
+
+			a {
+				padding: 0rem;
+        text-decoration: none;
+        color: var(--link-color);
+			}
+
+      nav a {
+        padding: 0.5rem;
+        color: var(--nav-link-color);
+      }
+
+      ul {
+        padding-left: 0rem;
+      }
+
+      ul > li {
+        list-style-type: none;
+      }
+
+      .container {
+        max-width: 680px;
+				padding: 1.5rem;
+        margin: auto;
+			}
+
+      .youtube iframe {
+        width:100%;
+        min-height:200px
+      }
+
+      @media (min-width: 600px) {
+        .youtube iframe {
+          min-height:400px
+        }
+      }
+
+      pre {
+        padding: 1rem;
+        overflow: auto;
+      }
+      pre[data-linenos] {
+        padding: 1rem 0;
+      }
+      pre table td {
+        padding: 0;
+      }
+      pre table td:nth-of-type(1) {
+        text-align: center;
+        user-select: none;
+      }
+      pre mark {
+        display: block;
+        background-color: rgba(254, 252, 232, 0.9);
+      }
+      pre table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <nav role="navigation" aria-label="main navigation">
+        <a href="/"><h1>saju.bike</h1></a>
+        <a href="/brm/">BRM</a>
+      </nav>
+    </div>
+    <section class="section">
+      <div class="container">
+        {% block content %} {% endblock %}
+      </div>
+    </section>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
