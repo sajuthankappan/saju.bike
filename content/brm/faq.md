@@ -17,4 +17,4 @@ Use OsmAnd
 
 [OsmAnd - How to use navigation](http://osmand.net/features/navigation)
 
-[Turn Android into an awesome cycling GPS ](https://jeroenmols.com/blog/2016/07/21/cyclinggps/)
+[Jeroenmols Blog - Turn Android into an awesome cycling GPS ](https://jeroenmols.com/blog/2016/07/21/cyclinggps/)
