@@ -1,4 +1,1 @@
----
-layout: layout.njk
----
-# Saju.Bike Eleventy Static Site
+# Saju.Bike Zola Static Site
