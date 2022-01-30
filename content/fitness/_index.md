@@ -1,7 +1,7 @@
 +++
-title = "BRM"
-sort_by = "date"
+title = "Fitness"
 template = "listing.html"
 page_template = "detail.html"
 +++
+
 
